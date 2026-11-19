@@ -494,7 +494,7 @@ $`n`$-րդ աստիճանի Բեզյեի կորն սահմանվում է հետ
 
 ``` math
 \begin{array}{r}
-C(u) = \ \sum_{i\  = \ 0}^{n}{B_{i,n}(u)P_{i}\ ,\ \ 0\  \leq \ u\  \leq \ 1}:\#(1.7)
+C(u) = \ \sum_{i\  = \ 0}^{n}{B_{i,n}(u)P_{i}\ ,\ \ 0\  \leq \ u\  \leq \ 1}:\qquad (1.7)
 \end{array}
 ```
 
@@ -502,7 +502,7 @@ C(u) = \ \sum_{i\  = \ 0}^{n}{B_{i,n}(u)P_{i}\ ,\ \ 0\  \leq \ u\  \leq \ 1}:\#(
 
 ``` math
 \begin{array}{r}
-B_{i,n}(u) = \ \frac{n!}{i!(n\  - \ i)!}u^{i}(1\  - \ u)^{n\  - \ i}\ \ :\#(1.8)
+B_{i,n}(u) = \ \frac{n!}{i!(n\  - \ i)!}u^{i}(1\  - \ u)^{n\  - \ i}\ \ :\qquad (1.8)
 \end{array}
 ```
 
@@ -609,7 +609,7 @@ B_{2,2}(u) & = (1 - u)B_{2,1}(u) + uB_{1,1}(u) = u^{2}:
 ``` math
 \begin{array}{r}
 C^{ˊ}(u) = \frac{d\left( \sum_{i = 0}^{n}{B_{i,\ n}(u)P_{i}} \right)}{du} = \\
-\ \sum_{i\  = \ 0}^{n}{{B_{i\ ,\ n}}^{ˊ}(u)}P_{i} = \sum_{i\  = \ 0}^{n}{n\left( B_{i\  - \ 1\ ,\ n\  - \ 1}(u) - \ B_{i\ ,\ n\  - \ 1}(u) \right)P_{i} = \ n\sum_{i\  = \ 0}^{n\  - \ 1}{B_{i\ ,\ n\  - \ 1}(u)\left( P_{i\  + \ 1}\  - \ P_{i} \right):}}\ \#(1.9)
+\ \sum_{i\  = \ 0}^{n}{{B_{i\ ,\ n}}^{ˊ}(u)}P_{i} = \sum_{i\  = \ 0}^{n}{n\left( B_{i\  - \ 1\ ,\ n\  - \ 1}(u) - \ B_{i\ ,\ n\  - \ 1}(u) \right)P_{i} = \ n\sum_{i\  = \ 0}^{n\  - \ 1}{B_{i\ ,\ n\  - \ 1}(u)\left( P_{i\  + \ 1}\  - \ P_{i} \right):}}\ \qquad (1.9)
 \end{array}
 ```
 
@@ -618,7 +618,7 @@ C^{ˊ}(u) = \frac{d\left( \sum_{i = 0}^{n}{B_{i,\ n}(u)P_{i}} \right)}{du} = \\
 ``` math
 {C^{ˊ}(0) = n\left( P_{1} - P_{0} \right)\ \ ,\ \ \ \ \ \ \ \ \ C^{ˊˊ}(0) = n(n - 1)\left( P_{0} - {2P}_{1} + \ P_{2} \right)\ \ ,\ \ 
 }\begin{array}{r}
-C^{ˊ}(1) = n\left( P_{n} - P_{n - 1} \right)\ ,\ \ {\ \ \ C}^{ˊˊ}(1) = n(n - 1)\left( P_{n} - {2P}_{1} + \ P_{n - 2} \right)\ ;\#(1.10)
+C^{ˊ}(1) = n\left( P_{n} - P_{n - 1} \right)\ ,\ \ {\ \ \ C}^{ˊˊ}(1) = n(n - 1)\left( P_{n} - {2P}_{1} + \ P_{n - 2} \right)\ ;\qquad (1.10)
 \end{array}
 ```
 
@@ -779,7 +779,7 @@ W(u) = \sum_{i = 0}^{n}B_{i,n}(u)\text{ }w_{i}
 
 ``` math
 \begin{array}{r}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C(u) = \sum_{i = 0}^{n}R_{i,n}(u)\text{ }P_{i},\ 0 \leq \ \ u\  \leq 1\ ,\ \ \#(1.15)
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C(u) = \sum_{i = 0}^{n}R_{i,n}(u)\text{ }P_{i},\ 0 \leq \ \ u\  \leq 1\ ,\ \ \qquad (1.15)
 \end{array}
 ```
 
@@ -1008,7 +1008,7 @@ S(u,v) = \left( x(u,v),\ y(u,v),\ z(u,v) \right),\quad(u,v) \in R:
 
 ``` math
 \begin{array}{r}
-S(u,v) = \left( x(u,v),\ y(u,v),\ z(u,v) \right) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{f_{i}(u)\, g_{j}(v)\, b_{i,j}}},\#(1.20)
+S(u,v) = \left( x(u,v),\ y(u,v),\ z(u,v) \right) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{f_{i}(u)\, g_{j}(v)\, b_{i,j}}},\qquad (1.20)
 \end{array}
 ```
 
@@ -1036,7 +1036,7 @@ S(u,v) = \left\lbrack f_{i}(u) \right\rbrack^{T} \cdot \left\lbrack b_{i,j} \rig
 S(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{a_{i,j}\, u^{i}v^{j}}} = \left\lbrack u^{i} \right\rbrack^{T}\left\lbrack a_{i,j} \right\rbrack\left\lbrack v^{j} \right\rbrack,\quad\quad\left\{ \begin{aligned}
  & a_{i,j} = \left( x_{i,j},\ y_{i,j},\ z_{i,j} \right) \\
  & 0 \leq u,\ v \leq 1
-\end{aligned} \right.\ :\#(1.21)
+\end{aligned} \right.\ :\qquad (1.21)
 \end{array}
 ```
 
@@ -1044,7 +1044,7 @@ S(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{a_{i,j}\, u^{i}v^{j}}} = \left\lbrack
 
 ``` math
 \begin{array}{r}
-C_{u_{0}}(v) = S\left( u_{0},v \right) = \sum_{j = 0}^{m}{\left( \sum_{i = 0}^{n}{a_{i,j}\, u_{0}^{i}} \right)v^{j}} = \sum_{j = 0}^{m}{b_{j}\left( u_{0} \right)\, v^{j}},\#(1.22)
+C_{u_{0}}(v) = S\left( u_{0},v \right) = \sum_{j = 0}^{m}{\left( \sum_{i = 0}^{n}{a_{i,j}\, u_{0}^{i}} \right)v^{j}} = \sum_{j = 0}^{m}{b_{j}\left( u_{0} \right)\, v^{j}},\qquad (1.22)
 \end{array}
 ```
 
@@ -1089,7 +1089,7 @@ S_{u}(u,v) = \sum_{i = 1}^{n}{\sum_{j = 0}^{m}{i\, a_{i,j}\, u^{i - 1}v^{j}}},\q
 
 ``` math
 \begin{array}{r}
-S(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, P_{i,j}}},\quad\quad 0 \leq u,\ v \leq 1:\#(1.23)
+S(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, P_{i,j}}},\quad\quad 0 \leq u,\ v \leq 1:\qquad (1.23)
 \end{array}
 ```
 
@@ -1103,7 +1103,7 @@ $`B_{0,2}(u)B_{1,3}(v)`$ բազիսային ֆունկցիան պատկերվա�
 C_{u_{0}}(v) = S(u_{0},v) & = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u_{0})\, B_{j,m}(v)\, P_{i,j}}} = \\
  & = \sum_{j = 0}^{m}{B_{j,m}(v)\left( \sum_{i = 0}^{n}{B_{i,n}(u_{0})\, P_{i,j}} \right)} = \\
  & = \sum_{j = 0}^{m}{B_{j,m}(v)\, Q_{j}(u_{0})},
-\end{aligned}\#(1.24)
+\end{aligned}\qquad (1.24)
 \end{array}
 ```
 
@@ -1141,7 +1141,7 @@ $`C_{v_{0}}(u) = \sum_{i = 0}^{n}{B_{i,n}(u)\, Q_{i}(v_{0})}`$-ն հանդիսա
 
 ``` math
 \begin{array}{r}
-\frac{n(n + 1)(m + 1)}{2} + \frac{m(m + 1)}{2}\#(1.25)
+\frac{n(n + 1)(m + 1)}{2} + \frac{m(m + 1)}{2}\qquad (1.25)
 \end{array}
 ```
 
@@ -1164,7 +1164,7 @@ $`C_{v_{0}}(u) = \sum_{i = 0}^{n}{B_{i,n}(u)\, Q_{i}(v_{0})}`$-ն հանդիսա
 
 ``` math
 \begin{array}{r}
-S^{w}(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, P_{i,j}^{w}}}\#(1.27)
+S^{w}(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, P_{i,j}^{w}}}\qquad (1.27)
 \end{array}
 ```
 
@@ -1175,7 +1175,7 @@ S^{w}(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, P_{i,j}
 \begin{aligned}
 S(u,v) = H\left\{ S^{w}(u,v) \right\} & = \frac{\sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, w_{i,j}\, P_{i,j}}}}{\sum_{i = 0}^{n}{\sum_{j = 0}^{m}{B_{i,n}(u)\, B_{j,m}(v)\, w_{i,j}}}} = \\
  & = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}{R_{i,j}(u}},v)\, P_{i,j},
-\end{aligned}\#(1.28)
+\end{aligned}\qquad (1.28)
 \end{array}
 ```
 
@@ -1331,7 +1331,7 @@ v = \frac{u - u_{0}}{u_{1} - u_{0}}\quad\text{և}\quad w = \frac{u - u_{1}}{u_{2
 
 ``` math
 \begin{array}{r}
-\mathbf{P}_{3}^{1} = \frac{\left( u_{2} - u_{1} \right)\mathbf{P}_{2}^{1} + \left( u_{1} - u_{0} \right)\mathbf{P}_{1}^{2}}{u_{2} - u_{0}}\#(2.1)
+\mathbf{P}_{3}^{1} = \frac{\left( u_{2} - u_{1} \right)\mathbf{P}_{2}^{1} + \left( u_{1} - u_{0} \right)\mathbf{P}_{1}^{2}}{u_{2} - u_{0}}\qquad (2.1)
 \end{array}
 ```
 
@@ -1359,7 +1359,7 @@ v = \frac{u - u_{0}}{u_{1} - u_{0}}\quad\text{և}\quad w = \frac{u - u_{1}}{u_{2
 
 ``` math
 \begin{array}{r}
-\mathbf{C}^{w}(u) = \sum_{i = 0}^{n}f_{i}(u)\,\mathbf{P}_{i}^{w}\#(2.3)
+\mathbf{C}^{w}(u) = \sum_{i = 0}^{n}f_{i}(u)\,\mathbf{P}_{i}^{w}\qquad (2.3)
 \end{array}
 ```
 
@@ -1371,7 +1371,7 @@ v = \frac{u - u_{0}}{u_{1} - u_{0}}\quad\text{և}\quad w = \frac{u - u_{1}}{u_{2
 
 ``` math
 \begin{array}{r}
-\mathbf{S}^{w}(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}f_{i}}(u)g_{j}(v)\,\mathbf{P}_{i,j}^{w}\#(2.4)
+\mathbf{S}^{w}(u,v) = \sum_{i = 0}^{n}{\sum_{j = 0}^{m}f_{i}}(u)g_{j}(v)\,\mathbf{P}_{i,j}^{w}\qquad (2.4)
 \end{array}
 ```
 
@@ -1688,7 +1688,7 @@ N_{7,2} = \frac{u - 4}{5 - 4}N_{7,1} + \frac{5 - u}{5 - 5}N_{8,1} = (u - 4)^{2}\
 
 ``` math
 \begin{array}{r}
-N_{i,p}(u) = \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}(u) + \frac{u_{i + p + 1} - u}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}(u)\#(2.6)
+N_{i,p}(u) = \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}(u) + \frac{u_{i + p + 1} - u}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}(u)\qquad (2.6)
 \end{array}
 ```
 
@@ -1751,7 +1751,7 @@ N_{6,2} & :\{ 4,4,5,5\}
 
 ``` math
 \begin{array}{r}
-N_{i,p}' = \frac{p}{u_{i + p} - u_{i}}N_{i,p - 1}(u) - \frac{p}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}(u)\#(2.7)
+N_{i,p}' = \frac{p}{u_{i + p} - u_{i}}N_{i,p - 1}(u) - \frac{p}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}(u)\qquad (2.7)
 \end{array}
 ```
 
@@ -1771,7 +1771,7 @@ N_{i,p}(u) = \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}(u) + \frac{u_{i + p 
 
 ``` math
 \begin{array}{r}
-N_{i,p}' = \frac{1}{u_{i + p} - u_{i}}N_{i,p - 1} + \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}' - \frac{1}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1} + \frac{u_{i + p + 1} - u}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}'\#(2.8)
+N_{i,p}' = \frac{1}{u_{i + p} - u_{i}}N_{i,p - 1} + \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}' - \frac{1}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1} + \frac{u_{i + p + 1} - u}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}'\qquad (2.8)
 \end{array}
 ```
 
@@ -1826,7 +1826,7 @@ N_{i,p}' & = \frac{1}{u_{i + p} - u_{i}}N_{i,p - 1} - \frac{1}{u_{i + p + 1} - u
 
 ``` math
 \begin{array}{r}
-N_{i,p}^{(k)}(u) = p\left( \frac{N_{i,p - 1}^{(k - 1)}}{u_{i + p} - u_{i}} - \frac{N_{i + 1,p - 1}^{(k - 1)}}{u_{i + p + 1} - u_{i + 1}} \right)\#(2.9)
+N_{i,p}^{(k)}(u) = p\left( \frac{N_{i,p - 1}^{(k - 1)}}{u_{i + p} - u_{i}} - \frac{N_{i + 1,p - 1}^{(k - 1)}}{u_{i + p + 1} - u_{i + 1}} \right)\qquad (2.9)
 \end{array}
 ```
 
@@ -1834,7 +1834,7 @@ N_{i,p}^{(k)}(u) = p\left( \frac{N_{i,p - 1}^{(k - 1)}}{u_{i + p} - u_{i}} - \fr
 
 ``` math
 \begin{array}{r}
-N_{i,p}^{(k)} = \frac{p!}{(p - k)!}\sum_{j = 0}^{k}a_{k,j}N_{i + j,p - k},\#(2.10)
+N_{i,p}^{(k)} = \frac{p!}{(p - k)!}\sum_{j = 0}^{k}a_{k,j}N_{i + j,p - k},\qquad (2.10)
 \end{array}
 ```
 
@@ -1893,7 +1893,7 @@ $`N_{i,p}^{(2)}(u) = 2\sum_{j = 0}^{2}a_{2,j}N_{i + j,p - 2}(u)`$։
 \begin{matrix}
 N_{i,p}^{(k)} = \frac{p}{p - k}\left( \frac{u - u_{i}}{u_{i + p} - u_{i}}N_{i,p - 1}^{(k)} + \frac{u_{i + p + 1} - u}{u_{i + p + 1} - u_{i + 1}}N_{i + 1,p - 1}^{(k)} \right) \\
 k = 0,\ldots,p - 1
-\end{matrix}\#(2.11)
+\end{matrix}\qquad (2.11)
 \end{array}
 ```
 
@@ -1911,7 +1911,7 @@ k = 0,\ldots,p - 1
 
 ``` math
 \begin{array}{r}
-\dim(V) = k(p + 1) - \sum_{j = 0}^{k}\left( r_{j} + 1 \right):\#(2.11)
+\dim(V) = k(p + 1) - \sum_{j = 0}^{k}\left( r_{j} + 1 \right):\qquad (2.11)
 \end{array}
 ```
 
@@ -1974,7 +1974,7 @@ dim(V) = k(p + 1) - \sum_{j = 0}^{k}(p - s_{j} + 1) = \\
 
 ``` math
 \begin{array}{r}
-U = \{\underset{\underset{p + 1}{\underbrace{}}}{a,\ldots,a},u_{p + 1},\ldots,u_{m - p - 1},\underset{\underset{p + 1}{\underbrace{}}}{b,\ldots,b}\}\#(2.13)
+U = \{\underset{\underset{p + 1}{\underbrace{}}}{a,\ldots,a},u_{p + 1},\ldots,u_{m - p - 1},\underset{\underset{p + 1}{\underbrace{}}}{b,\ldots,b}\}\qquad (2.13)
 \end{array}
 ```
 
@@ -2078,19 +2078,19 @@ N_{2,2}\left( \frac{5}{2} \right) = \frac{1}{8}\ ,\quad\quad N_{3,2}\left( \frac
 
 ``` math
 \begin{array}{r}
-N_{i - 2,2}(u) = \frac{u - u_{i - 2}}{u_{i} - u_{i - 2}}N_{i - 2,1}(u) + \frac{u_{i + 1} - u}{u_{i + 1} - u_{i - 1}}N_{i - 1,1}(u)\#(2.14)
+N_{i - 2,2}(u) = \frac{u - u_{i - 2}}{u_{i} - u_{i - 2}}N_{i - 2,1}(u) + \frac{u_{i + 1} - u}{u_{i + 1} - u_{i - 1}}N_{i - 1,1}(u)\qquad (2.14)
 \end{array}
 ```
 
 ``` math
 \begin{array}{r}
-N_{i - 1,2}(u) = \frac{u - u_{i - 1}}{u_{i + 1} - u_{i - 1}}N_{i - 1,1}(u) + \frac{u_{i + 2} - u}{u_{i + 2} - u_{i}}N_{i,1}(u)\#(2.15)
+N_{i - 1,2}(u) = \frac{u - u_{i - 1}}{u_{i + 1} - u_{i - 1}}N_{i - 1,1}(u) + \frac{u_{i + 2} - u}{u_{i + 2} - u_{i}}N_{i,1}(u)\qquad (2.15)
 \end{array}
 ```
 
 ``` math
 \begin{array}{r}
-N_{i,2}(u) = \frac{u - u_{i}}{u_{i + 2} - u_{i}}N_{i,1}(u) + \frac{u_{i + 3} - u}{u_{i + 3} - u_{i + 1}}N_{i + 1,1}(u)\#(2.16)
+N_{i,2}(u) = \frac{u - u_{i}}{u_{i + 2} - u_{i}}N_{i,1}(u) + \frac{u_{i + 3} - u}{u_{i + 3} - u_{i + 1}}N_{i + 1,1}(u)\qquad (2.16)
 \end{array}
 ```
 
@@ -2540,7 +2540,7 @@ ders[k] = ND[0];    /* k-րդ ածանցյալ */
 
 ``` math
 \begin{array}{r}
-C(u) = \sum_{i = 0}^{n}{N_{i,p}(u)P_{i}}\#(3.1)
+C(u) = \sum_{i = 0}^{n}{N_{i,p}(u)P_{i}}\qquad (3.1)
 \end{array}
 ```
 
@@ -2579,7 +2579,7 @@ C\left( \frac{5}{2} \right) = \frac{1}{8}P_{2} + \frac{6}{8}P_{3} + \frac{1}{8}P
 
 ``` math
 \begin{array}{r}
-m = n + p + 1\#(3.2)
+m = n + p + 1\qquad (3.2)
 \end{array}
 ```
 
@@ -2882,7 +2882,7 @@ C^{(2)}(0) = P_{0}^{(2)} = \frac{p - 2 + 1}{u_{p + 1} - u_{2}}\left( P_{1}^{(1)}
 
 ``` math
 \begin{array}{r}
-\ \ \ \ \ \ \ \ \ C^{(2)}(0) = \frac{p(p - 1)}{u_{p + 1}}\left\lbrack \frac{P_{0}}{u_{p + 1}} - \frac{{(u}_{p + 1} + u_{p + 2})P_{1}}{u_{p + 1}u_{p + 2}} + \frac{P_{2}}{u_{p + 2}} \right\rbrack\ \ \ ։\ \ \ \ \ \ \ \ \ \#(3.9)
+\ \ \ \ \ \ \ \ \ C^{(2)}(0) = \frac{p(p - 1)}{u_{p + 1}}\left\lbrack \frac{P_{0}}{u_{p + 1}} - \frac{{(u}_{p + 1} + u_{p + 2})P_{1}}{u_{p + 1}u_{p + 2}} + \frac{P_{2}}{u_{p + 2}} \right\rbrack\ \ \ ։\ \ \ \ \ \ \ \ \ \qquad (3.9)
 \end{array}
 ```
 Նմանապես,
@@ -2893,7 +2893,7 @@ $`\begin{matrix}
 
 ``` math
 \begin{array}{r}
-\left\lbrack \frac{P_{n}}{1 - u_{m - p - 1}} - \frac{(2 - u_{m - p - 1} - u_{m - p - 2})P_{n - 1}}{(1 - u_{m - p - 1})(1 - u_{m - p - 2})} + \frac{P_{n - 2}}{1 - u_{m - p - 2}} \right\rbrack ։\#(3.10)
+\left\lbrack \frac{P_{n}}{1 - u_{m - p - 1}} - \frac{(2 - u_{m - p - 1} - u_{m - p - 2})P_{n - 1}}{(1 - u_{m - p - 1})(1 - u_{m - p - 2})} + \frac{P_{n - 2}}{1 - u_{m - p - 2}} \right\rbrack ։\qquad (3.10)
 \end{array}
 ```
 
